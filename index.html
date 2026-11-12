@@ -9,6 +9,7 @@
 <meta property="og:description" content="Websites for businesses that look smaller than they are. Designed and hand-coded in Dhaka.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0A0A'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='21' fill='%23EDE9E1' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
     --bg-2:#0E0E0F;
     --ink:#EDE9E1;
     --body:#A9A49C;
-    --dim:#6D6963;
+    --dim:#7C7771;
     --line:rgba(237,233,225,.11);
     --line-soft:rgba(237,233,225,.06);
     --amber:#C9A261;
@@ -244,6 +245,9 @@
     .wrap{padding:0 22px}
     .sec{padding:78px 0}
     .hero{padding:132px 0 60px}
+    .hero-label .mono{font-size:10px;letter-spacing:.1em}
+    .hero-label{gap:10px;margin-bottom:26px}
+    .hero-label .rule{width:26px}
     .sec-head{flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:44px}
     .work-row{grid-template-columns:34px 1fr 22px;gap:14px;padding:24px 0}
     .work-row .meta{display:none}
@@ -576,7 +580,7 @@
   </div>
 </footer>
 
-<div class="hover-shot" id="shot" aria-hidden="true"><img alt="" id="shot-img"></div>
+<div class="hover-shot" id="shot" aria-hidden="true"><img alt="" id="shot-img" src="assets/klienera-desktop.jpg"></div>
 
 <script>
 (function () {
